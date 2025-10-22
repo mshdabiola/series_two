@@ -5,7 +5,7 @@
 // - Show manifest properties: true
 // - Show declarations: true
 
-// Library unique name: <series.modules:model>
+// Library unique name: <series_two:model>
 final enum class com.mshdabiola.seriesmodel/QuestionKind : kotlin/Enum<com.mshdabiola.seriesmodel/QuestionKind> { // com.mshdabiola.seriesmodel/QuestionKind|null[0]
     enum entry ESSAY // com.mshdabiola.seriesmodel/QuestionKind.ESSAY|null[0]
     enum entry MULTIPLE_CHOICE // com.mshdabiola.seriesmodel/QuestionKind.MULTIPLE_CHOICE|null[0]

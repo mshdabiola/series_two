@@ -5,7 +5,7 @@
 // - Show manifest properties: true
 // - Show declarations: true
 
-// Library unique name: <series.modules:database>
+// Library unique name: <series_two:database>
 abstract interface com.mshdabiola.database.dao/NoteDao { // com.mshdabiola.database.dao/NoteDao|null[0]
     abstract fun getAll(): kotlinx.coroutines.flow/Flow<kotlin.collections/List<com.mshdabiola.database.model/NoteEntity>> // com.mshdabiola.database.dao/NoteDao.getAll|getAll(){}[0]
     abstract fun getOne(kotlin/Long): kotlinx.coroutines.flow/Flow<com.mshdabiola.database.model/NoteEntity?> // com.mshdabiola.database.dao/NoteDao.getOne|getOne(kotlin.Long){}[0]

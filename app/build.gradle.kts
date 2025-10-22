@@ -39,6 +39,11 @@ kotlin {
 
         commonMain.dependencies {
             implementation(projects.library)
+            implementation(projects.model)
+            implementation(projects.retex)
+            implementation(projects.transfer)
+            implementation(projects.database)
+
 
             implementation(compose.components.resources)
 
