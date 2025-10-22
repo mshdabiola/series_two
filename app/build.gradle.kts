@@ -38,7 +38,6 @@ kotlin {
     sourceSets {
 
         commonMain.dependencies {
-            implementation(projects.library)
             implementation(projects.model)
             implementation(projects.retex)
             implementation(projects.transfer)

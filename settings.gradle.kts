@@ -39,7 +39,6 @@ dependencyResolutionManagement {
     }
 }
 rootProject.name = "series_two"
-include(":library")
 include(":database")
 include(":model")
 include(":retex")
