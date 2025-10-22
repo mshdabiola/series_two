@@ -15,7 +15,7 @@
  */
 package com.mshdabiola.database.di
 
-import com.mshdabiola.RealNoteDataSource
+import com.mshdabiola.database.RealNoteDataSource
 import com.mshdabiola.database.dao.NoteDao
 import org.koin.core.module.dsl.singleOf
 import org.koin.dsl.bind
