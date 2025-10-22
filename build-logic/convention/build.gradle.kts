@@ -142,6 +142,10 @@ gradlePlugin {
             id = "mshdabiola.android.library.publish"
             implementationClass = "AndroidLibraryPublishConventionPlugin"
         }
+        register("jvmLibrary") {
+            id = "mshdabiola.jvm.library"
+            implementationClass = "JvmLibraryConventionPlugin"
+        }
 
     }
 }
