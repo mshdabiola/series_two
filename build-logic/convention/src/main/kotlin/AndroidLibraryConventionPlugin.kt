@@ -5,7 +5,7 @@
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
  *
- * http://www.apache.org/licenses/LICENSE-2.
+ * http://www.apache.org/licenses/LICENSE-2.0
  *
  * Unless required by applicable law or agreed to in writing, software
  * distributed under the License is distributed on an "AS IS" BASIS,
@@ -18,6 +18,7 @@ import com.android.build.gradle.LibraryExtension
 import com.mshdabiola.app.configureKotlinAndroid
 import com.mshdabiola.app.configureKotlinMultiplatform
 import com.mshdabiola.app.configurePrintApksTask
+import com.mshdabiola.app.libs
 import org.gradle.api.Plugin
 import org.gradle.api.Project
 import org.gradle.kotlin.dsl.configure
@@ -66,6 +67,10 @@ class AndroidLibraryConventionPlugin : Plugin<Project> {
 
                 with(sourceSets) {
                     commonMain.dependencies {
+                    }
+                    jvmTest.dependencies {
+                        implementation(kotlin("test"))
+                        implementation(libs.findLibrary("kotlinx.coroutines.test").get())
                     }
                 }
             }

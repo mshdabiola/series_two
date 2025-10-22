@@ -38,7 +38,12 @@ dependencyResolutionManagement {
         maven(url = "https://maven.pkg.jetbrains.space/kotlin/p/wasm/experimental")
     }
 }
-rootProject.name = "Kltemplate"
-include(":library")
+rootProject.name = "series_two"
+include(":database")
+include(":model")
+include(":retex")
+include(":jretex")
+include(":transfer")
+
 include(":app")
 include(":benchmarks")

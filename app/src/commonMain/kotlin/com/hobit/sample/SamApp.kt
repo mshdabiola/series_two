@@ -5,7 +5,7 @@
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
  *
- * http://www.apache.org/licenses/LICENSE-2.
+ * http://www.apache.org/licenses/LICENSE-2.0
  *
  * Unless required by applicable law or agreed to in writing, software
  * distributed under the License is distributed on an "AS IS" BASIS,
@@ -17,20 +17,13 @@ package com.hobit.sample
 
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
-import com.mshdabiola.library.Note
-import com.mshdabiola.library.NoteCard
 
 @Composable
 fun SamApp() {
     Box(modifier = Modifier.fillMaxSize()) {
-        NoteCard(
-            noteUiState = Note(
-                title = "Title",
-                content = "Content",
-            ),
-            onClick = {},
-        )
+        Text("Testing")
     }
 }
