@@ -13,8 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.mshdabiola
-
+package com.mshdabiola.database
 import com.mshdabiola.database.dao.NoteDao
 import com.mshdabiola.database.model.NoteEntity
 import io.github.xxfast.kstore.KStore

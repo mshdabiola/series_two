@@ -25,7 +25,7 @@ import java.io.IOException
 import kotlin.test.Test
 
 /**
- * Tests for [NoteDao].
+ * Tests for [UserDao].
  * This uses an in-memory database for testing.
  *
  * For pure JVM tests without Android framework dependencies (like Context),

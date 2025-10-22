@@ -34,7 +34,7 @@ import androidx.room.PrimaryKey
     tableName = "instruction_table",
 )
 data class InstructionEntity(
-    @PrimaryKey(true)
+    @PrimaryKey(autoGenerate = true)
     val id: Long?,
     val examId: Long,
     val title: String,

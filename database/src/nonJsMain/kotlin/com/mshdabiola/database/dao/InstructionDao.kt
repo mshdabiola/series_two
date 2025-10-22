@@ -40,7 +40,7 @@ interface InstructionDao {
     suspend fun delete(id: Long)
 
     @Upsert
-    suspend fun insertAll(users: List<InstructionEntity>)
+    suspend fun insertAll(instructionEntities: List<InstructionEntity>)
 
 //    @Query("SELECT * FROM note_table")
 //   suspend fun pagingSource(): PagingSource<Int, NoteEntity>
