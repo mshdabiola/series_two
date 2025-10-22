@@ -1,0 +1,7 @@
+$dokka.format:html-v1
+$dokka.linkExtension:html
+
+module:library
+com.mshdabiola.library
+com.mshdabiola.model
+com.mshdabiola.model.testtag
